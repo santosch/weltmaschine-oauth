@@ -1,0 +1,10 @@
+{
+  "client_id": "https://santosch.github.io/weltmaschine-oauth/client.json",
+  "client_name": "Weltmaschine",
+  "client_uri": "https://github.com/santosch/weltmaschine-oauth",
+  "redirect_uris": ["http://localhost:4400/api/mcp/personio/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid offline_access mcp:access"
+}
